@@ -1,0 +1,41 @@
+.profile {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 32px;
+    margin-top: 12px;
+
+    & div:first-child {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+.profile__image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.profile__name {
+    color: var(--VeryDarkGrayishBlue);
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.profile__date {
+    color: var(--GrayishBlue);
+    margin-top: 5px;
+}
+
+.profile__share {
+    padding: 10px;
+    background-color: var(--LightGrayishBlue);
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--VeryDarkGrayishBlue);
+    }
+}
